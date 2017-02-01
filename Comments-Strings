@@ -1,0 +1,21 @@
+Good work here!
+
+I like the way that your getMaxIndex() method calls getMax().  Good re-use of code!
+
+You squeezed a lot of logic into the line
+  while (!(n = keyboard.nextLine()).isEmpty()) 
+
+I assume you understand exactly what it's doing, or you wouldn't have used it :-)
+So you know, the more common version was
+  s = keyboard.nextLine();
+  while (s.length > 0)
+  {
+    addItem(s);
+    s = keyboard.nextLine();
+  }
+  
+It does exactly the same thing as yours.  More code, but easier to follow. 
+  There are always trade-offs!
+  
+Good work overall.
+10/10
